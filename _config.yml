@@ -4,11 +4,6 @@ title:          코딩 기록
 description:    "코딩 기록용 블로그"
 baseurl:        ""
 url:            "https://adc0612.github.io"
-=======
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-url:            "https://chesterhow.github.io"
->>>>>>> e10ff8e7c3ba83985303a500099ec06c021b190f
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
