@@ -1,0 +1,15 @@
+.category-wrap{
+    &-title>a{
+        color: #6c7279;
+    }
+    &-subtitle{
+        &>a{
+            color: #45494f;
+        }
+        &>time{
+            font-size: .8rem;
+        }    
+    }
+
+
+}
