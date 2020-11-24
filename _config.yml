@@ -1,7 +1,6 @@
 # Site settings
-<<<<<<< HEAD
-title:          코딩 기록
-description:    "코딩 기록용 블로그"
+title:          coroc
+description:    "코딩 기록 블로그"
 baseurl:        ""
 url:            "https://adc0612.github.io"
 
@@ -37,6 +36,9 @@ paginate:       5
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+img_url: /assets/img
+category_list: [ algorithm, git, react, vue]
 
 # Disqus (Set to your disqus id)
 disqus:         jekyll-tale
+
