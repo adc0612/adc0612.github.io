@@ -57,12 +57,3 @@ npm폴더 삭제시 global로 설치했던 Package들은 모두 삭제되니 필
 `nvm-setup.zip`을 선택해 다운로드했다.  
 압축푼 뒤 setup으로 설치해줬다.
 설치하니 bashrc파일도 다 되있었고 nvm 작동이 잘 됐다.
-
-## MongoDB Cloud
-
-회원의 정보를 저장할 데이터베이스로 MongoDB를 사용한다.  
-MongoDB를 직접설치 하는 대신 MongoDB Cloud를 이용한다.  
-
-[https://www.mongodb.com/cloud](https://www.mongodb.com/cloud)
-
-회원가입 후 Mono
