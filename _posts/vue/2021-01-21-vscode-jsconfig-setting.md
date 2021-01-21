@@ -10,7 +10,7 @@ tags: [ vue, vscode, jsconfig.json]
 
 <hr>
 
-## jsconfig.js 설정
+## jsconfig.json 설정
 
 vscode에서만 지정 할 수 있는 절대경로 설정이다.  
 절대경로를 설정하지 않으면 매번 `../`, `../../`이렇게 상단에 올라가서 파일을 상대경로를 통해 찾아야 한다.  
