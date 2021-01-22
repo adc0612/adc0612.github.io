@@ -15,9 +15,11 @@ tags: [ vue, MongoDB, MongoDB Cloud]
 회원의 정보를 저장할 데이터베이스로 MongoDB를 사용한다.  
 MongoDB를 직접설치 하는 대신 MongoDB Cloud를 이용한다.  
 
-[https://www.mongodb.com/cloud](https://www.mongodb.com/cloud)
+[https://www.mongodb.com/cloud](https://www.mongodb.com/cloud){: target="_blank"}
 
 회원가입 후 무료로 제공해주는 500MB만 사용한다.  
+
+<hr>
 
 ## Network Access
 
@@ -30,6 +32,8 @@ SECURITY -> Network Access에 접속해서 허용 할 IP를 등록해야 한다.
 
 ![Add Whitelist Entry](/assets/img/vue/mongodb2.png "Add Whitelist Entry")
 
+<hr>
+
 ## Database Access
 
 데이터베이스에 접속할 admin계정을 생성해야한다.  
@@ -40,6 +44,8 @@ SECURITY -> Database Access에 접속해서 ID를 생성해야 한다.
 `Read and write to any database`권한을 주고 test 계정을 생성한다.
 
 ![Add New User test](/assets/img/vue/mongodb4.png "Add New User test")
+
+<hr>
 
 ## Clusters
 
@@ -55,6 +61,8 @@ ATLAS -> Clusters에 접속해서 CONNECT를 누른다.
 Node.js 3.0 or later 선택 후 나오는 String값을 복사한다.
 
 ![Connection string](/assets/img/vue/mongodb7.png "Connection string")
+
+<hr>
 
 ## 서버에 연결
 

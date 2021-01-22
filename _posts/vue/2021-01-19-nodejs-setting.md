@@ -16,7 +16,7 @@ tags: [ vue, NVM, Nodejs]
 NVM (Node Version Manager)를 설치해서 사용하려고 한다.
 NVM은 프로젝트마다 Node.js버전이 다양할 때, Node.js 버전을 쉽게 바꿀 수 있는 툴이다.
 
-[https://github.com/nvm-sh/nvm#installing-and-updating](https://github.com/nvm-sh/nvm#installing-and-updating)
+[https://github.com/nvm-sh/nvm#installing-and-updating](https://github.com/nvm-sh/nvm#installing-and-updating){: target="_blank"}
 
 위 링크로 접속하면 NVM 설치에 관한 코드를 확인 할 수 있다.
 bash cmd 창에서 아래 설치 command를 실행해서 설치한다.
@@ -52,7 +52,7 @@ npm폴더 삭제시 global로 설치했던 Package들은 모두 삭제되니 필
 
 아래 경로로 접속해 nvm을 설치했다.  
 
-[https://github.com/coreybutler/nvm-windows/releases](https://github.com/coreybutler/nvm-windows/releases)
+[https://github.com/coreybutler/nvm-windows/releases](https://github.com/coreybutler/nvm-windows/releases){: target="_blank"}
 
 `nvm-setup.zip`을 선택해 다운로드했다.  
 압축푼 뒤 setup으로 설치해줬다.

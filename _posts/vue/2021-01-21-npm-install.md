@@ -16,6 +16,8 @@ NPM(Node Package Manager)은 명령어로 `javascript` 라이브러리를 설치
 > 참고로 NPM은 Node.js 설치될 때 같이 설치 된다.
 `npm install`명령어에는 지역(local) 설치와 전역(global) 설치 옵션이 있다.
 
+<hr>
+
 ## NPM 지역 설치
 
 npm 지역 설치는 옵션을 별도로 지정하지 않으면 지역으로 설치되며, 프로젝트 루트 디렉토리에 `node_modules`폴더가 자동 생성되고 그 안에 Package들이 설치된다.  
@@ -33,6 +35,8 @@ npm i vue-router --save-prod
 또한, `install`대신 `i`를 사용해도 같다.  
 그러므로 위 4개 명령어는 똑같은 결과를 나타낸다.
 
+<hr>
+
 ### NPM 지역 설치 배포용 라이브러리
 
 npm지역 설치를 할 때 해당 라이브러리가 배포용(dependencies)인지 개발용(devDepedencies)인지 꼭 구분해야한다.  
@@ -43,6 +47,8 @@ npm지역 설치를 할 때 해당 라이브러리가 배포용(dependencies)인
 npm install vue-router --save-prod 
 npm i vue-router #축약형
 ```
+
+<hr>
 
 ### NPM 지역 설치 개발용 라이브러리
 
@@ -63,6 +69,7 @@ npm i eslint -D #축약형
 * `imagemin` : 이미지 압축 도구
 {% endhighlight %}
 
+<hr>
 
 ## NPM 전역 설치
 
@@ -79,6 +86,8 @@ npm i gulp -g #축약형
 gulp
 
 ```
+
+<hr>
 
 ### NPM 전역 설치 경로
 

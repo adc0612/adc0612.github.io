@@ -28,6 +28,8 @@ module.exports = {
 
 ![vue.config.js파일 수정](/assets/img/vue/vue-create3.png "vue.config.js파일 수정")
 
+<hr>
+
 ## ESLint
 
 ESLint는 JavaScript 코드에서 발견 된 문제 패턴을 식별하기위한 정적 코드 분석 도구다. JavaScript에서 발생하는 에러의 가능성을 잡아주는 도구다.
@@ -66,6 +68,8 @@ module.exports = {
   ]
 };
 {% endhighlight %}
+
+<hr>
 
 ## Prettier
 
@@ -121,6 +125,8 @@ module.exports = {
 };
 {% endhighlight %}
 
+<hr>
+
 ## ESLint Plugin 설치
 
 vscode extenstions에 들어가서 ESLint 검색 후 ESLint plugin을 설치한다.
@@ -130,6 +136,8 @@ vscode extenstions에 들어가서 ESLint 검색 후 ESLint plugin을 설치한�
 설치 후 ,를 제거하거나 에러를 생성하면 아래와 같이 <b style="color: red;">빨간색 밑줄</b>이 그어지고 에러설명이 뜨는 것을 볼 수 있다.
 
 ![ESLint Plugin 에러 확인](/assets/img/vue/vue-create5.png "ESLint Plugin 에러 확인")
+
+<hr>
 
 ## ESLint Plugin 설정
 
@@ -145,6 +153,8 @@ vscode extenstions에 들어가서 ESLint 검색 후 ESLint plugin을 설치한�
 
 ![vscode eslint validate settings.json 수정](/assets/img/vue/vue-create8.png "vscode eslint validate settings.json 수정")
 
+<hr>
+
 ## Prettier Plugin 해제
 
 ESLint안에 Prettier를 설정했으므로 만약 `Prettier Plugin`이 vscode에 설치 되어있으면 `사용 안 함(작업영역)`을 해주면 해당 프로젝트내에서는 vscode에서 제공하는 prettier plugin기능을 끌 수 있다.
@@ -156,6 +166,8 @@ ESLint안에 Prettier를 설정했으므로 만약 `Prettier Plugin`이 vscode�
 ![format on save 해제](/assets/img/vue/vue-create10.png "format on save 해제")
 
 `format on save`를 해제하는 이유는 만약 이 옵션이 되어있으면 vscode안에 있는 `beutify`나 다른 plugin이 파일 저장할 때 자동으로 code를 서식에 맞게 정리하므로 eslint안에 지정했던 `prettier`설정으로 되어있는지 확인이 어려워서다.
+
+<hr>
 
 ## .eslintrc.js 파일에 따로 설정하는 이유
 
