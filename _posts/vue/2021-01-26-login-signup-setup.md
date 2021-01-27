@@ -1,23 +1,12 @@
 ---
 layout: post
 comments: true
-title: "vue-router 설치 및 연결"
-description: "vue-router 설치 및 연결"
+title: "login, signup page 만들기"
+description: "login, signup page 만들기"
 subject: vue
 categories: [ vue ]
-tags: [ vue, vue router]
+tags: [ vue ]
 ---
-
-<hr>
-
-[1. vue-router 설치](#vue-router-1)  
-[2. vue-router 등록](#vue-router-2)  
-[3. routes 생성](#vue-router-3)  
-[4. router-link, router-view 추가](#vue-router-4)  
-[5. 코드 분할 (code splitting)](#vue-router-5)  
-[6. 초기 진입 페이지 설정 (routing redirect 설정)](#vue-router-6)  
-[7. 없는 페이지로 접근할 때 라우터 처리 (routing callback 설정)](#vue-router-7)  
-[8. history mode 설정](#vue-router-8)  
 
 <hr>
 
@@ -68,6 +57,7 @@ export default {
 </script>
 ```
 
+<hr>
 
 ## LoginPage SignupPage 생성
  
