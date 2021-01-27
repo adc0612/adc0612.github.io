@@ -104,9 +104,42 @@ export { registerUser, loginUser };
 프로젝트 폴더 최상단인 root에 .env파일을 만든다.  
 vue-cli 3.x부터 변수에 `VUE_APP_`을 붙은 변수들은 자동으로 가져올 수 있다.
 
+`.env`
 ```bash
 VUE_APP_API_URL = http://localhost:3000/
 ```
+
+`index.js`
+```javascript
+import axios from 'axios';
+
+// axios.crate를 이용해 기본 옵션들을 설정할 수 있다.
+// 거의 백앤드 서버에 접속하는 URL은 하나로 지정해서 하기 떄문에 baseURL값으로 집어 넣는다.
+// 그럼 post할 떄 axios.post(URL,data)대신 instance.post(data)로 post요청을 할 수 있다.
+const instance = axios.create({
+  // baseURL: 'http://localhost:3000/',
+  // 위에 주소를 .env파일에서 공통으로 지정
+  baseURL: process.env.VUE_APP_API_URL,
+});
+
+// 회원가입 data post
+function registerUser(userData) {
+  //   const url = 'http://localhost:3000/signup';
+  // 첫번재 인자 보낼 URL
+  // 두번재 인자 보낼 data
+  //   return axios.post(url, userData);
+  // http://localhost:300/는 위에 선언해놓은 instance에서 바로 연결해주고 옆에 붙여줄 signup만 URL에 인자로 넣어주면 된다.
+  return instance.post('signup', userData);
+}
+
+// 로그인 기능 data post
+function loginUser(userData) {
+  return instance.post('login', userData);
+}
+
+export { registerUser, loginUser };
+```
+
 
 <hr>
 
