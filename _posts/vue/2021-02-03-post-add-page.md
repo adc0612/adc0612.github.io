@@ -184,3 +184,29 @@ PostAddForm.vue에 computed로 contents의 글자수가 200자 이내면 true고
 textarea밑에 p태그를 삽입 후 v-if속성을 걸어 isContentsValid함수가 false면 나타나게 설정한다.
 
 <hr>
+
+## post add 후 자동 이동
+
+post를 생성 후 mainpage로 이동 할 수 있게 기능을 추가한다.  
+`components/posts/PostAddForm.vue`의 `submitForm()`methods를 수정한다.
+
+```javascript
+    async submitForm() {
+      try {
+        const response = await createPost({
+          title: this.title,
+          contents: this.contents,
+        });
+        // 게시글 성공으로 생성 후 MainPage로 전환
+        this.$router.push('/main');
+        console.log(response);
+      } catch (error) {
+        console.log(error.response.data.message);
+        this.logmsg = error.response.data.message;
+      }
+    },
+```
+
+저장하면 게시글 생성 후 바로 메인페이지로 이동이 돼서 게시글이 생성된지 바로 확인이 가능하다.
+
+<hr>
