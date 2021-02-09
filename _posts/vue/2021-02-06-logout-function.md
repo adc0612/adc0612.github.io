@@ -18,12 +18,14 @@ AppHeader에 로고를 누르면 '/'로 가게 설정이 되어있는데, `/`는
 `components/common/AppHeader.vue`에서 로고에 있는 `to`를 v-bind로 computed된 값을 넣어줄 것이다.
 
 `components/common/AppHeader.vue`
-```html
+{% highlight html %}
+{% raw %}
       <router-link :to="logoLink" class="logo">
         TIL
         <span v-if="isUserLogin">by {{ $store.state.username }}</span>
       </router-link>
-```
+{% endraw %}
+{% endhighlight %}
 
 computed에 logoLink함수 선언 후 store.getters.inLogin이 true면 main으로 아니면 login 주소값을 넘겨준다.
 

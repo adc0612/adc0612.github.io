@@ -48,7 +48,8 @@ tags: [ vue, template, v-if, v-else ]
 
 isUserLogin값으로 template들에 있는 v-if와 v-else로 엮어준다.  
 
-```html
+{% highlight html %}
+{% raw %}
 <div class="navigations">
     <!-- isUserLogin이 true면 실행되는 블럭  -->
     <template v-if="isUserLogin">
@@ -62,6 +63,7 @@ isUserLogin값으로 template들에 있는 v-if와 v-else로 엮어준다.
     <router-link to="/signup">Signup</router-link>
     </template>
 </div>
-```
+{% endraw %}
+{% endhighlight %}
 
 <hr>

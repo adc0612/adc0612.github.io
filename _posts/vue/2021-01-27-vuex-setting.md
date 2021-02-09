@@ -187,7 +187,8 @@ async submitForm() {
 
 AppHeader.vue에 로그인 성공시 username이 보이게 store에 있는 username을 넣었다.
 
-```html
+{% highlight html %}
+{% raw %}
 <template>
   <header>
     <div>
@@ -202,7 +203,8 @@ AppHeader.vue에 로그인 성공시 username이 보이게 store에 있는 usern
     </div>
   </header>
 </template>
-```
+{% endraw %}
+{% endhighlight %}
 
 store의 username을 header에서 볼 수 있다.
 
