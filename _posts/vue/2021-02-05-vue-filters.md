@@ -18,14 +18,15 @@ tags: [ vue, filters]
 Vue는 텍스트 형식화를 적용할 수 있는 필터를 지원한다.  
 mustache 문법이나 v-bind때 쓸 수 있다.  
 
-```html
+{% highlight html %}
+{% raw %}
 <!-- in mustaches -->
 {{ message | capitalize }}
 
 <!-- in v-bind -->
 <div v-bind:id="rawId | formatId"></div>
-```
-
+{% endraw %}
+{% endhighlight %}
 `filters`를 이용히여 게시글 밑에 생설날짜나 다른 곳에 쓰이는 날짜형식을 지정할 예정이다.
 
 <hr>
