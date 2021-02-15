@@ -62,3 +62,15 @@ Optional parameter 지정
 ![TS 함수 Optional parameter 지정](/assets/img/typescript/ts-function4.png "TS 함수 Optional parameter 지정")
 
 <hr>
+
+## 함수 - return 없음 (void)
+
+함수의 return값이 없을 때 void를 이용한다.
+
+```typescript
+function deleteTodo(index: number): void {
+  todoItems.splice(index, 1);
+}
+```
+
+<hr>
