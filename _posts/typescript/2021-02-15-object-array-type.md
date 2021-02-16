@@ -1,8 +1,8 @@
 ---
 layout: post
 comments: true
-title: "[Typescript] 타입스크립트 함수 타입 "
-description: "[Typescript] 타입스크립트 함수 타입 "
+title: "[Typescript] 타입스크립트 Object 배열 타입 "
+description: "[Typescript] 타입스크립트 Object 배열 타입 "
 subject: typescript
 categories: [ typescript ]
 tags: [ typescript, function]
@@ -98,7 +98,7 @@ function fetchTodoItems(): { id: number; title: string; done: boolean }[] {
 
 <hr>
 
-## interface 활용
+## 인터페이스 (interface) 활용
 
 같은 object의 속성 타입을 계속 길게 써주는 불편함이 있다.  
 그것을 해결하기 위해 interface를 가지고 같은 object의 속성을 지정한다.
