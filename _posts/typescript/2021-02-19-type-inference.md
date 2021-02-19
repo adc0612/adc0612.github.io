@@ -5,7 +5,7 @@ title: "[Typescript] 타입 추론 (type inference)"
 description: "[Typescript] 타입 추론 (type inference)"
 subject: typescript
 categories: [ typescript ]
-tags: [ typescript, generics]
+tags: [ typescript, generics, interface, inference]
 ---
 
 <hr>
