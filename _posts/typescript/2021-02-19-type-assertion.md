@@ -5,7 +5,7 @@ title: "[Typescript] 타입 단언 (type assertion)"
 description: "[Typescript] 타입 단언 (type assertion)"
 subject: typescript
 categories: [ typescript ]
-tags: [ typescript, generics]
+tags: [ typescript, type assertion]
 ---
 
 <hr>
@@ -46,6 +46,5 @@ let div = document.querySelector('div'); // div: HTMLDivElement | null
 ```typescript
 let div = document.querySelector('div') as HTMLDivElement; 
 ```
-
 
 <hr>
