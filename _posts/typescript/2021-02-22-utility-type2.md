@@ -75,24 +75,23 @@ type UpdateProduct2 = {
 }
 ```
 
-### 3. for..in으로 구성
+### 3. Mapped Type으로 구성
 
-Javascript의 `for..in`반복문 비슷하게 구현을 할 수 있다.  
+간략하게 `Mapped Type`으로 구성한다.
 
 ```typescript
-// 3. for..in으로 구성
-// Javascript에서 배열안 key값들을 접근하는 for..in반복문 같은 것 
+// 3. Mapped Type으로 구성
 type UpdateProduct3 = {
     [P in 'id' | 'name' | 'price' | 'brand' | 'stock']?: Product[P];
 }
 ```
 
-### 4. for..in keyof 이용
+### 4. keyof 이용
 
 `keyof`를 이용해 Product인터페이스에 key값들만 가져와서 연결했다.
 
 ```typescript
-// 4. for..in keyof 이용
+// 4. keyof 이용
 type UpdateProduct4 = {
     [P in keyof Product]?: Product[P];
 }
