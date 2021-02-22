@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "vue-router 설치 및 연결"
+title: "[Vue.js] vue-router 설치 및 연결"
 description: "vue-router 설치 및 연결"
 subject: vue
 categories: [ vue ]

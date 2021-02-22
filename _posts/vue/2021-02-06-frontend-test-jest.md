@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "프론트엔드 테스트 Jest"
+title: "[Vue.js] 프론트엔드 테스트 Jest"
 description: "프론트엔드 테스트 Jest"
 subject: vue
 categories: [ vue ]

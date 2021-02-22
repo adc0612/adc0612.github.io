@@ -1,8 +1,8 @@
 ---
 layout: post
 comments: true
-title: "ESLint, Prettier 설정"
-description: "ESLint, Prettier 설정"
+title: "[Vue.js] ESLint, Prettier 설정"
+description: "[Vue.js] ESLint, Prettier 설정"
 subject: vue
 categories: [ vue ]
 tags: [ vue, ESLint, Prettier]

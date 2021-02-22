@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Post Edit function 추가"
+title: "[Vue.js] Post Edit function 추가"
 description: "Post Edit function 추가"
 subject: vue
 categories: [ vue ]

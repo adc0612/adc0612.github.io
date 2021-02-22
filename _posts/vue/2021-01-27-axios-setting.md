@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "axios 설정 및 설치"
+title: "[Vue.js] axios 설정 및 설치"
 description: "axios 설정 및 설치"
 subject: vue
 categories: [ vue ]

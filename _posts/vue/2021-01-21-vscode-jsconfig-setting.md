@@ -1,8 +1,8 @@
 ---
 layout: post
 comments: true
-title: "파일을 절대 경로로 찾기 설정(jsconfig.json 설정)"
-description: "vscode내 jsconfig.json설정"
+title: "[Vue.js] 파일을 절대 경로로 찾기 설정(jsconfig.json 설정)"
+description: "[Vue.js] vscode내 jsconfig.json설정"
 subject: vue
 categories: [ vue ]
 tags: [ vue, vscode, jsconfig.json]

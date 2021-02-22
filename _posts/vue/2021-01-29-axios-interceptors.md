@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Axios Interceptor"
+title: "[Vue.js] Axios Interceptor"
 description: "Axios Interceptor"
 subject: vue
 categories: [ vue ]

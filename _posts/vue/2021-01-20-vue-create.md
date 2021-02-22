@@ -1,8 +1,8 @@
 ---
 layout: post
 comments: true
-title: "vue Project 생성 (vue CLI)"
-description: "vue Project 생성 (vue CLI)"
+title: "[Vue.js] vue Project 생성 (vue CLI)"
+description: "[Vue.js] vue Project 생성 (vue CLI)"
 subject: vue
 categories: [ vue ]
 tags: [ vue, vue CLI]

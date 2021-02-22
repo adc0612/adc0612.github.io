@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "login, signup page 만들기"
+title: "[Vue.js] login, signup page 만들기"
 description: "login, signup page 만들기"
 subject: vue
 categories: [ vue ]

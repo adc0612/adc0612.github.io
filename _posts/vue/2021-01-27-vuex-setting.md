@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "router-link 셋팅, vuex 설치 및 셋팅"
+title: "[Vue.js] router-link 셋팅, vuex 설치 및 셋팅"
 description: "router-link 셋팅, vuex 설치 및 셋팅"
 subject: vue
 categories: [ vue ]

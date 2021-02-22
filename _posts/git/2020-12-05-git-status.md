@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Git status"
+title: "[git] Git status"
 description: "Git status 설명"
 subject: git
 categories: [ git ]

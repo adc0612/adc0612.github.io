@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Git commit"
+title: "[git] Git commit"
 description: "Git commit 설명"
 subject: git
 categories: [ git ]

@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "api통해 axios 데이터처리, email validation"
+title: "[Vue.js] api통해 axios 데이터처리, email validation"
 description: "api통해 axios 데이터처리, email validation"
 subject: vue
 categories: [ vue ]

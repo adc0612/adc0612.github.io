@@ -1,8 +1,8 @@
 ---
 layout: post
 comments: true
-title: "npm install 명령어 정리"
-description: "npm install 명령어 정리"
+title: "[Vue.js] npm install 명령어 정리"
+description: "[Vue.js] npm install 명령어 정리"
 subject: vue
 categories: [ vue ]
 tags: [ npm, node.js ]

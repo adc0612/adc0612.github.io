@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Git ignore"
+title: "[git] Git ignore"
 description: "Git ignore 설명"
 subject: git
 categories: [ git ]

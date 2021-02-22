@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "로그인 상태에 따른 이동 링크처리 & 로그아웃"
+title: "[Vue.js] 로그인 상태에 따른 이동 링크처리 & 로그아웃"
 description: "로그인 상태에 따른 이동 링크처리 & 로그아웃"
 subject: vue
 categories: [ vue ]

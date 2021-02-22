@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "로그인 인증 토큰, HTTP헤더에 토큰삽입"
+title: "[Vue.js] 로그인 인증 토큰, HTTP헤더에 토큰삽입"
 description: "로그인 인증 토큰, HTTP헤더에 토큰삽입"
 subject: vue
 categories: [ vue ]

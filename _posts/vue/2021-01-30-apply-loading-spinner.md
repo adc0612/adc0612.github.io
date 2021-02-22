@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Loading Spinner 등록"
+title: "[Vue.js] Loading Spinner 등록"
 description: "Loading Spinner 등록"
 subject: vue
 categories: [ vue ]

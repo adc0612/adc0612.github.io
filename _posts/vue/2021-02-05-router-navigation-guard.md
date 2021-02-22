@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "router navigation guard 적용"
+title: "[Vue.js] router navigation guard 적용"
 description: "router navigation guard 적용"
 subject: vue
 categories: [ vue ]

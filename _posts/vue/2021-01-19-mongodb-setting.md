@@ -1,8 +1,8 @@
 ---
 layout: post
 comments: true
-title: "vue MongoDB Cloud setting"
-description: "vue MongoDB Cloud setting"
+title: "[Vue.js] vue MongoDB Cloud setting"
+description: "[Vue.js] vue MongoDB Cloud setting"
 subject: vue
 categories: [ vue ]
 tags: [ vue, MongoDB, MongoDB Cloud]

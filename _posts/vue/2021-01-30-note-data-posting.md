@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Swagger API로 노트 데이터 생성과 조회"
+title: "[Vue.js] Swagger API로 노트 데이터 생성과 조회"
 description: "Swagger API로 노트 데이터 생성과 조회"
 subject: vue
 categories: [ vue ]

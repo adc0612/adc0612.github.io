@@ -1,8 +1,8 @@
 ---
 layout: post
 comments: true
-title: "vue project intro"
-description: "Vue New Project intro"
+title: "[Vue.js] vue project intro"
+description: "[Vue.js] vue New Project intro"
 subject: vue
 categories: [ vue ]
 tags: [ vue]

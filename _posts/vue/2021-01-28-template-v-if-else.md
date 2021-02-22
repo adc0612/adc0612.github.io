@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "template, v-if 와 v-else"
+title: "[Vue.js] template, v-if 와 v-else"
 description: "template, v-if 와 v-else"
 subject: vue
 categories: [ vue ]

@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "API 분할"
+title: "[Vue.js] API 분할"
 description: "API 분할"
 subject: vue
 categories: [ vue ]

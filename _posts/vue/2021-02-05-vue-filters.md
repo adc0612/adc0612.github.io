@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "vue filters 적용"
+title: "[Vue.js] vue filters 적용"
 description: "vue filters 적용"
 subject: vue
 categories: [ vue ]

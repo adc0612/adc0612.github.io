@@ -2,7 +2,7 @@
 layout: post
 comments: true
 # date: 2020-12-01 18:00:00
-title: "Git Workflow"
+title: "[git] Git Workflow"
 description: "Git의 전반적인 흐름에 대한 설명"
 subject: git
 categories: [ git ]

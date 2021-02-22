@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Post delete 기능 추가"
+title: "[Vue.js] Post delete 기능 추가"
 description: "Post delete 기능 추가"
 subject: vue
 categories: [ vue ]

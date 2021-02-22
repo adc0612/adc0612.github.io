@@ -1,8 +1,8 @@
 ---
 layout: post
 comments: true
-title: "vue NodeJS setting (NVM)"
-description: "vue NodeJS setting (NVM)"
+title: "[Vue.js] vue NodeJS setting (NVM)"
+description: "[Vue.js] vue NodeJS setting (NVM)"
 subject: vue
 categories: [ vue ]
 tags: [ vue, NVM, Nodejs]

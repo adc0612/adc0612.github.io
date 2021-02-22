@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Post Item 모듈화"
+title: "[Vue.js] Post Item 모듈화"
 description: "Post Item 모듈화"
 subject: vue
 categories: [ vue ]
