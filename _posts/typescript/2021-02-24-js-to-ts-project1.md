@@ -18,7 +18,7 @@ tags: [ typescript]
 [1. NPM 초기화](#section1)  
 [2. 타입스크립트 라이브러리 설치](#section2)  
 [3. 타입스크립트 설정 파일 생성](#section3)  
-[4. git add -A 와 git add . 차이](#section4)  
+[4. 자바스크립트 파일을 타입스크립트 파일로 변환하기](#section4)  
 
 <hr>
 
