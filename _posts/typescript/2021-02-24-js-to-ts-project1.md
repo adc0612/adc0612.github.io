@@ -35,7 +35,7 @@ npm init -y
 
 <hr>
 
-## 타입스크립트 라이브러리 설치 (npm i typescipt -D) <a<a name="section2"></a>
+## 타입스크립트 라이브러리 설치 (npm i typescipt -D) <a name="section2"></a>
 
 프로젝트 폴더에서 Terminal을 연 뒤`npm i typescript -D`로 타입스크립트 라이브러리를 설치한다.  
 > 타입스크립트 라이브러리는 개발용(devDepencies) 라이브러리이므로 `-D`를 붙여서 설치한다.  
