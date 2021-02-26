@@ -153,6 +153,4 @@ declare module 'chart.js' {
 
 ```
 
-
 <hr>
-
