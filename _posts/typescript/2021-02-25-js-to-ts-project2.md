@@ -5,7 +5,7 @@ title: "[Typescript] JS to TS Project - 2. 점진적인 타입 선언"
 description: "[Typescript] JS to TS Project - 2. 점진적인 타입 선언"
 subject: typescript
 categories: [ typescript ]
-tags: [ typescript]
+tags: [ typescript, enum]
 ---
 
 <hr>
